@@ -16,7 +16,15 @@
 
 ⭐ 需要画图等高级功能时(需选更有创造力模式或右上角 设置 => 图像创建 )，可登录微软账号设置用户 Cookie 进行体验
 
+复制下面段代码 控制台 即可快速获取cookie
+```
+javascript: (function() {var value = document.cookie.split('; ').
+find(row => row.startsWith('_U=')).split('=')[1];prompt
+('Copy to clipboard: Ctrl+C, Enter', value);})();
+```
+
 ⭐ 遇到一切问题，先点左下角 ![新主题](./docs/img/bing-clear.png) 试试，不行使用刷新大法（Shift + F5 或 Ctrl + Shift + R 或 右上角设置中的一键重置），最终大招就 清理浏览器缓存 及 Cookie ，比如（24 小时限制、未登录提示等等）
+
 
 - [go-proxy-bing](#go-proxy-bing)
   - [网页展示](#网页展示)
