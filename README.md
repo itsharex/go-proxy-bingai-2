@@ -167,24 +167,6 @@ services:
 
 在 [GitHub Releases](https://github.com/adams549659584/go-proxy-bingai/releases) 下载适用于对应平台的压缩包，解压后可得到可执行文件 go-proxy-bingai，直接运行即可。
 
-### Railway
-
-> 主要配置 Dockerfile 路径 及 端口就可以
-
-```bash
-PORT=8080
-RAILWAY_DOCKERFILE_PATH=docker/Dockerfile
-```
-
-一键部署，点这里 => [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/uIckWS?referralCode=BBs747)
-
-![Railway 模板部署](./docs/img/railway-1.png)
-
-自行使用 Railway 部署配置如下
-
-![Railway 环境变量](./docs/img/railway-2.png)
-
-![Railway 域名](./docs/img/railway-3.png)
 
 ### Vercel
 
