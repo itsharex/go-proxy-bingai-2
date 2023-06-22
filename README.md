@@ -96,7 +96,7 @@ find(row => row.startsWith('_U=')).split('=')[1];prompt
 ![Vercel 域名](./docs/img/vercel-2.png)
 
 
-
+这里结束就可以使用了，但是还是自己搭建聊天服务器比较好，接着看。
 ## 部署聊天服务器
 
 自己用cloudflare搭建必须要看  重要！！！
