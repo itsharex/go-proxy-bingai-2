@@ -106,6 +106,25 @@ find(row => row.startsWith('_U=')).split('=')[1];prompt
 
 
 
+## 部署聊天服务器
+
+自己用cloudflare搭建必须要看  重要！！！
+不想使用作者的就自己搭建们这里记得关闭https
+cloudflare SSL策略改为完全
+端到端加密，使用服务器上的自签名证书。
+不然用Vercel搭建的服务器就会无法访问。
+使用Cloudflare Workers 域名NS需要绑定过去的，直接使用cloudflare提供的域名国内无法访问。
+
+> 核心代码 [worker.js](./cloudflare/worker.js)
+
+> 具体部署 Cloudflare Workers 教程自行查询，大概如下
+
+- [注册 Cloudflare 账号](https://dash.cloudflare.com/sign-up)
+
+- 创建 Worker 服务，复制 [worker.js](./cloudflare/worker.js) 全部代码，粘贴至创建的服务中，保存并部署。
+
+- 触发器 中自定义访问域名。
+
 
 ## 设置用户
 
@@ -186,25 +205,6 @@ services:
 
 
 
-
-## 部署聊天服务器
-
-自己用cloudflare搭建必须要看  重要！！！
-不想使用作者的就自己搭建们这里记得关闭https
-cloudflare SSL策略改为完全
-端到端加密，使用服务器上的自签名证书。
-不然用Vercel搭建的服务器就会无法访问。
-使用Cloudflare Workers 域名NS需要绑定过去的，直接使用cloudflare提供的域名国内无法访问。
-
-> 核心代码 [worker.js](./cloudflare/worker.js)
-
-> 具体部署 Cloudflare Workers 教程自行查询，大概如下
-
-- [注册 Cloudflare 账号](https://dash.cloudflare.com/sign-up)
-
-- 创建 Worker 服务，复制 [worker.js](./cloudflare/worker.js) 全部代码，粘贴至创建的服务中，保存并部署。
-
-- 触发器 中自定义访问域名。
 
 ## TODO
 
