@@ -84,17 +84,12 @@ find(row => row.startsWith('_U=')).split('=')[1];prompt
 
 ### 
 
-- https://bing.vcanbb.top(原作者搭建)
-- https://bing.172u.top(我画瓢搭建)
+- https://bing.vcanbb.top (原作者)
+- https://bing.172u.top (我搭建)
 
 
 ### Vercel 搭建
 
-- https://bing-vercel.vcanbb.top
-- https://go-proxy-bingai-adams549659584.vercel.app
-
-
-### Vercel
 
 > ⭐ Vercel 部署不支持 Websocket ，需选择 官方聊天服务器 或 Cloudflare
 
