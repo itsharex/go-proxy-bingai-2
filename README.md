@@ -4,7 +4,7 @@
 
 作者地址（前后端开发大佬） https://github.com/adams549659584
 
-我转载而来去除了百度谷歌的统计让页面更快些,添加了一个聊天服务器，需要的去大佬那下载。
+我转载而来去除了百度谷歌的统计让页面更快些,添加了一个聊天服务器，修改部分稳定，删除国内无法访问的，需要原文档与代码的去原作者地址。
 
 
 
@@ -87,30 +87,6 @@ find(row => row.startsWith('_U=')).split('=')[1];prompt
 - https://bing.vcanbb.top(原作者搭建)
 - https://bing.172u.top(我画瓢搭建)
 
-### Railway 搭建
-
-- https://bing-railway.vcanbb.top
-
-- https://go-proxy-bingai-production.up.railway.app
-
-### Railway （国内无法访问）
-
-> 主要配置 Dockerfile 路径 及 端口就可以
-
-```bash
-PORT=8080
-RAILWAY_DOCKERFILE_PATH=docker/Dockerfile
-```
-
-一键部署，点这里 => [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/uIckWS?referralCode=BBs747)
-
-![Railway 模板部署](./docs/img/railway-1.png)
-
-自行使用 Railway 部署配置如下
-
-![Railway 环境变量](./docs/img/railway-2.png)
-
-![Railway 域名](./docs/img/railway-3.png)
 
 ### Vercel 搭建
 
@@ -220,6 +196,13 @@ services:
 ![Render 域名](./docs/img/render-2.png)
 
 ## 部署聊天服务器
+
+自己用cloudflare搭建必须要看  重要！！！
+不想使用作者的就自己搭建们这里记得关闭https
+cloudflare SSL策略改为完全
+端到端加密，使用服务器上的自签名证书。
+不然用Vercel搭建的服务器就会无法访问。
+使用Cloudflare Workers 域名NS需要绑定过去的，直接使用cloudflare提供的域名国内无法访问。
 
 > 核心代码 [worker.js](./cloudflare/worker.js)
 
