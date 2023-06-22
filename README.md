@@ -126,6 +126,9 @@ cloudflare SSL策略改为完全
 - 触发器 中自定义访问域名。
 
 
+
+
+
 ## 设置用户
 
 - 访问 https://www.bing.com/ 或 https://cn.bing.com/ ，登录
@@ -135,6 +138,9 @@ cloudflare SSL策略改为完全
 - 拿到 Cookie 中 _U 的值 后，在网站设置 => 设置用户 中填入即可。
 
 ![获取Cookie](./docs/img/bing-cookie.png)
+
+
+
 
 ## 环境变量
 
@@ -161,6 +167,10 @@ Go_Proxy_BingAI_AUTH_KEY=xxx
 > 支持 Linux (amd64 / arm64)、Windows (amd64 / arm64)
 
 > 国内机器部署可配置 socks 环境变量
+
+
+------------------------------------------------------------------------------------------------------------------
+
 
 ### Docker
 
