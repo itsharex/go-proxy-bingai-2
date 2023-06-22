@@ -200,12 +200,8 @@ services:
     #   - Go_Proxy_BingAI_USER_TOKEN_2=xxx    
 ```
 
-### Release
 
-在 [GitHub Releases](https://github.com/javadeath/go-proxy-bingai/releases) 下载适用于对应平台的压缩包，解压后可得到可执行文件 go-proxy-bingai，直接运行即可。
-
-
-
+------------------------------------------------------------------------------------------------------------------
 
 ## TODO
 
