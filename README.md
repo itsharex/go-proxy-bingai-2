@@ -93,11 +93,19 @@ find(row => row.startsWith('_U=')).split('=')[1];prompt
 - https://bing-vercel.vcanbb.top
 - https://go-proxy-bingai-adams549659584.vercel.app
 
-### Render 搭建
 
-- https://bing-render.vcanbb.top
+### Vercel
 
-- https://go-proxy-bingai.onrender.com
+> ⭐ Vercel 部署不支持 Websocket ，需选择 官方聊天服务器 或 Cloudflare
+
+一键部署，点这里 => [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/javadeath/go-proxy-bingai&project-name=go-proxy-bingai&repository-name=go-proxy-bingai-vercel)
+
+![Vercel 一键部署](./docs/img/vercel-1.png)
+
+![Vercel 域名](./docs/img/vercel-2.png)
+
+
+
 
 ## 设置用户
 
@@ -177,23 +185,7 @@ services:
 在 [GitHub Releases](https://github.com/javadeath/go-proxy-bingai/releases) 下载适用于对应平台的压缩包，解压后可得到可执行文件 go-proxy-bingai，直接运行即可。
 
 
-### Vercel
 
-> ⭐ Vercel 部署不支持 Websocket ，需选择 官方聊天服务器 或 Cloudflare
-
-一键部署，点这里 => [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/javadeath/go-proxy-bingai&project-name=go-proxy-bingai&repository-name=go-proxy-bingai-vercel)
-
-![Vercel 一键部署](./docs/img/vercel-1.png)
-
-![Vercel 域名](./docs/img/vercel-2.png)
-
-### Render
-
-一键部署，点这里 => [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/javadeath/go-proxy-bingai)
-
-![Render 一键部署](./docs/img/render-1.png)
-
-![Render 域名](./docs/img/render-2.png)
 
 ## 部署聊天服务器
 
