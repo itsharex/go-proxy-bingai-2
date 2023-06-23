@@ -81,7 +81,7 @@ find(row => row.startsWith('_U=')).split('=')[1];prompt
 ### 
 
 - https://bing.vcanbb.top (原作者)
-- https://bing.172u.top (我搭建)
+- https://bing.cjlit.net (我搭建)
 
 
 ### Vercel 搭建
